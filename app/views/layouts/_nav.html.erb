@@ -1,0 +1,20 @@
+<header class="navigation">
+  <div class="menu-wrapper">
+    <%= link_to image_tag("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png"), root_path, :class => "logo" %>
+    
+    <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
+    <div class="nav">
+      <ul id="navigation-menu">
+        <% if user_signed_in? %>
+          <li class="nav-link"><%= link_to 'Edit profile', edit_user_registration_path %></li>
+          <li class="nav-link"><%= link_to "Logout", destroy_user_session_path, method: :delete  %></li>
+        <% else %>
+          <li class="nav-link"><%= link_to "Sign up", new_user_registration_path  %></li>
+          <li class="nav-link"><%= link_to "Login", new_user_session_path  %></li>
+        <% end %>
+        
+      </ul>
+    </div>
+  </div>
+
+</header>

@@ -1,0 +1,8 @@
+<%= form_for @blog do |blog| %>
+	<%= blog.label :title %>
+	<%= blog.text_field :title %>
+	<%= blog.label :content %>
+	<%= blog.text_area :content %>
+	<%= blog.label :category %>
+	<%= blog.submit 'Save Post' %>
+<% end %>

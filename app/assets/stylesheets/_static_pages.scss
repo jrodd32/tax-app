@@ -1,0 +1,273 @@
+html {
+	@include background(linear-gradient(white, #fdfef6) left repeat);
+}
+
+
+/*--------------------------
+ Home Page 
+ ---------------------------*/
+main.home {
+	@include outer-container;
+  
+	article {
+		@include span-columns(6);
+	}
+	aside {
+		@include span-columns(6);	
+	}
+}
+
+.hero {
+	$hero-background: desaturate(darken($base-accent-color, 20), 30);	
+	$hero-color: white;
+
+	background: url(/images/lake-transparent.png);
+	background-color: $hero-background;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding-bottom: 4em;
+
+	.hero-logo img {
+		height: 3em;
+		margin-bottom: 1em;
+	}
+
+	.hero-inner {
+		@include outer-container;
+		@include clearfix;
+		padding: 3em;
+		margin: auto;
+		text-align: center;
+		color: $hero-color;
+
+		button {
+			@include button(simple, $base-accent-color);
+			font-size: $base-font-size;
+			outline: none;
+		}
+
+		.hero-copy {
+			text-align: center;
+			
+			h1 {
+				font-size: 1.4em;
+				margin-bottom: .2em;
+
+				@include media($large-screen) {
+					font-size: 1.8em;
+				}
+			}
+
+			p {
+				margin: auto;
+				margin-bottom: 3em;	
+				font-weight: 200;
+
+				@include media($large-screen) {
+					font-size: 1.2em;
+					max-width: 80%;
+				}
+			}
+		}
+	}
+}
+
+/*--------------------------
+ About Us Page 
+ ---------------------------*/
+.bullets {
+  $icon-bullet-size: 3.5em;
+
+  overflow: auto;
+  margin-bottom: $base-line-height;
+
+  // change ".three-col-bullet" class to this for two bullet layout
+  .two-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(6);
+      @include omega(2n);  
+    } 
+  }
+  
+  .three-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(4);
+      @include omega(3n);
+    }
+  }
+
+  // change ".three-col-bullet" class to this for four bullet layout
+  .four-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+  }
+
+  .bullet-icon {
+    float: left;
+    background: $base-accent-color;
+    padding: $icon-bullet-size /4;
+    border-radius: 50%;
+    width: $icon-bullet-size;
+    height: $icon-bullet-size;
+  }
+
+  .bullet-icon-1 {
+    background: $base-accent-color;
+  }
+
+  .bullet-icon-2 {
+    background: adjust-hue($base-accent-color, -50);
+  }
+
+  .bullet-icon-3 {
+    background: adjust-hue($base-accent-color, -140);
+  }
+
+  .bullet-content {
+    margin-left: $icon-bullet-size *1.4;
+    margin-bottom: 2em;
+  }
+
+  h2 {
+    font-size: $icon-bullet-size /2.5;
+    padding-top: $icon-bullet-size /7;
+    margin-bottom: $icon-bullet-size /6;
+    border-bottom: 1px solid transparentize($base-font-color, .8);
+    display: inline-block;
+  }
+}
+
+article.type-system-serif {
+  $serif: 'Lusitana', serif;
+  $serif-2: 'Merriweather', serif;
+  $sans-serif: 'Merriweather Sans', sans-serif;
+
+  @include clearfix;
+  text-align: left;
+
+  .type {
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-family: $sans-serif;
+    font-size: .7em;
+    font-weight: 700;
+    margin-bottom: 2em;
+    padding: .3em 0;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: $serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: .5em;
+
+    @include media($medium-screen) {
+      font-size: 2.6em;
+    }
+  }
+
+  h2 {
+    font-family: $serif-2;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: .9em;
+
+    @include media($medium-screen) {
+      font-size: 1.2em;
+    }
+  }
+
+  code {
+    white-space: nowrap;
+    font-family: monaco;
+    background: #F7F7F7;
+    border: 1px solid #E0E0E0;
+    border-radius: $base-border-radius * 1.5;
+    padding: .1em .4em;
+    font-size: .75em;
+    font-style: normal;
+  }
+
+  h3 {
+    font-family: $serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: .4em;
+  }
+
+  p.date {
+    color: transparentize($base-font-color, .6);
+    font-family: $serif-2;
+    font-style: italic;
+    font-size: .9em;
+    margin-bottom: .3em;
+  }
+
+  p {
+    font-family: $serif-2;
+    line-height: 1.6em;
+    font-size: .9em;
+    margin-bottom: 1.5em;
+
+    span {
+      font-family: $sans-serif;
+      font-weight: 700;
+    }
+  }
+
+  a.read-more {
+    display: inline-block;
+    font-family: $sans-serif;
+    font-weight: 700;
+    font-size: .8em;
+    text-transform: uppercase;
+    margin-left: .2em;
+    position: relative;
+
+    span {
+      font-family: $serif;
+      font-style: normal;
+      position: absolute;
+      font-size: 1.5em;
+      top: -1px;
+      right: -12px;
+    }
+  }
+  
+  hr {
+    width: 3em;
+  }
+
+  p.author {
+    font-family: $serif-2;
+    font-style: italic;
+  }
+}
+
+/*--------------------------
+ Blog / Tax Information Page 
+ ---------------------------*/
+
+section.blog {
+	@include outer-container;
+
+	main {
+		@include span-columns(6);
+	}
+
+	aside {
+		@include span-columns(6);
+
+		ul {
+			@include span-columns(6);			
+		}
+	}
+}

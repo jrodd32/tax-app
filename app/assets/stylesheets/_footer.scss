@@ -1,0 +1,35 @@
+footer {
+	@include outer-container;
+	
+	height: 75px;
+	line-height: 75px;
+	
+	section {
+		@include outer-container;
+		ul {
+			@include span-columns(6);
+			li {
+				@include span-columns(4);
+	  			@include omega(3n);
+			}
+		}
+
+		aside {
+			@include span-columns(6);
+			a {
+				float: right;
+				padding-left: 2em;
+				width: auto;
+			}
+		}
+	}
+
+	p {
+		@include row();
+			color: #999999;
+			text-align: center;
+			a {
+				color: #999999;
+			}
+		}
+}

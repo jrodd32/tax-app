@@ -1,0 +1,627 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"par",
+				"partial	include partial view	erb"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"post",
+				"post_params"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"he",
+				"height2"
+			],
+			[
+				"h",
+				"height3"
+			],
+			[
+				"move",
+				"move2"
+			],
+			[
+				"but",
+				"button_offset"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"page-",
+				"page-sub-nav"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"an",
+				"answers"
+			],
+			[
+				"qu",
+				"questionActive"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"que",
+				"questions"
+			],
+			[
+				"the",
+				"theClick"
+			],
+			[
+				"quest",
+				"questionActive"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"bor",
+				"border-left-color"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"bo",
+				"border-right"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"path",
+				"pathArray"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/blogs_controller.rb",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 415,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<% if user_signed_in? %>\n		<%= button_to 'Get Started',  %>\n	<% else %>\n		<h2>Sign Up Now</h2>\n		<%= simple_form_for :user, url: {controller: \"users\", action: \"create\"} do |user| %>\n			<%= user.error_notification %>\n			<%= user.label :email %>\n			<%= user.email_field :email, required: true, autofocus: true %>\n			<%= user.label :password %>\n			<%= user.password_field :password, required: true %>\n			<%= user.label :password_confirmation %>\n			<%= user.password_field :password_confirmation, required: true %>\n			<%= user.button :submit, \"Get Started\" %>\n	<% end %>\n<% end %>",
+			"file": "app/views/static_pages/_home_form.html.erb",
+			"file_size": 593,
+			"file_write_time": 1406605566000000,
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/application.rb",
+			"settings":
+			{
+				"buffer_size": 1031,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 286.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/JRodd32/Ruby/projects/tax/app/taxform/taxform.rb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/create.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/_blog_roll.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/index.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/_form.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/config/routes.rb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/_blog_sidebar.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/_global.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/_static_pages.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/layouts/_footer.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/_recent.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/new.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/static_pages/_home_content.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/layouts/_social.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/db/schema.rb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/static_pages/index.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/static_pages/_home_form.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/static_pages/about.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/application.css.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/_footer.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/layouts/_nav.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/_grid-settings.scss",
+		"/Users/JRodd32/Ruby/projects/tax/Gemfile",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/blogs.css.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/devise/registrations/new.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/layouts/application.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/visitors/index.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/blogs/edit.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/layouts/_home_content.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/layouts/_home_form.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/users/_user.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/static_pages/eula.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/controllers/static_pages_controller.rb",
+		"/Users/JRodd32/Ruby/projects/tax/app/controllers/visitors_controller.rb",
+		"/Users/JRodd32/Ruby/projects/tax/app/controllers/pages_controller.rb",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/users/index.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/_home.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/_nav.css.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/base/_base.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/layouts/untitled",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/javascripts/application.js",
+		"/Users/JRodd32/Ruby/projects/tax/app/controllers/users_controller.rb",
+		"/Users/JRodd32/Library/Application Support/Sublime Text 2/Packages/ERB Autocomplete/README.md",
+		"/Users/JRodd32/Library/Application Support/Sublime Text 2/Packages/ERB Autocomplete/ERBAutocomplete.sublime-settings",
+		"/Users/JRodd32/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/JRodd32/Ruby/projects/tax/_custom_layout.html.erb",
+		"/Users/JRodd32/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/_form.css.scss",
+		"/Users/JRodd32/Ruby/projects/jerrodlong/db/schema.rb",
+		"/Users/JRodd32/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/JRodd32/Ruby/projects/ramblings/app/controllers/application_controller.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/controllers/application_controller.rb",
+		"/Users/JRodd32/Ruby/projects/jerrodlong/config/routes.rb",
+		"/Users/JRodd32/Ruby/projects/cpo/cpo.sublime-project",
+		"/Users/JRodd32/Ruby/projects/ramblings/app/controllers/visitors_controller.rb",
+		"/Users/JRodd32/Ruby/projects/ramblings/app/controllers/posts_controller.rb",
+		"/Users/JRodd32/Ruby/projects/oneM2/config/database.yml",
+		"/Users/JRodd32/Ruby/projects/oneM2/app/assets/stylesheets/application.scss",
+		"/Users/JRodd32/Ruby/projects/oneM2/app/assets/javascripts/application.js",
+		"/usr/local/var/mysql/JLD-MacBook.local.err",
+		"/Users/JRodd32/Ruby/projects/lateTaxes/config/database.yml",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/layouts/application.html.erb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/controllers/visitors_controller.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/visitors/new.html.erb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/users/index.html.erb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/layouts/_navigation_links.html.erb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/users/show.html.erb",
+		"/Users/JRodd32/Ruby/projects/taxes/db/seeds.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/users/new.html.erb",
+		"/Users/JRodd32/Ruby/projects/taxes/db/migrate/20140501042433_create_users.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/db/schema.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/db/migrate/20140501045313_create_users.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/Gemfile",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/pages/about.html.erb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/controllers/basic_controller.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/db/migrate/20140501041038_create_basics.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/controllers/basics_controller.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/config/routes.rb",
+		"/Users/JRodd32/Ruby/projects/taxes/app/views/basics/index.html.erb",
+		"/Users/JRodd32/Dropbox/Sites/RBW/site/index.html",
+		"/Users/JRodd32/Dropbox/Sites/RBW/site/bios.html",
+		"/Users/JRodd32/Dropbox/Sites/RBW/site/sidebar.php",
+		"/Users/JRodd32/Dropbox/Sites/RBW/site/footer.php",
+		"/Users/JRodd32/Dropbox/Sites/RBW/site/sftp-config.json",
+		"/Users/JRodd32/Dropbox/Sites/Cullen/wp-content/themes/cullen/css/know.css",
+		"/Users/JRodd32/Dropbox/Sites/Cullen/wp-content/themes/cullen/page-we-know.php",
+		"/Users/JRodd32/Dropbox/Sites/Cullen/wp-content/themes/cullen/page-blog.php",
+		"/Users/JRodd32/Dropbox/Sites/Cullen/wp-content/themes/cullen/header.php",
+		"/Users/JRodd32/Dropbox/Sites/Cullen/wp-content/themes/cullen/style.css",
+		"/Users/JRodd32/Dropbox/Sites/Cullen/wp-content/themes/cullen/templates/home-cullen.html",
+		"/Users/JRodd32/.rvm/gems/ruby-2.1.1/extensions/x86_64-darwin-12/2.1.0-static/pg-0.17.1/mkmf.log",
+		"/Users/JRodd32/.rvm/gems/ruby-2.1.1/extensions/x86_64-darwin-12/2.1.0-static/pg-0.17.1/gem_make.out",
+		"/Users/JRodd32/Ruby/projects/tax/Gemfile.lock",
+		"/Users/JRodd32/Ruby/projects/tax/app/views/static_pages/home.html.erb",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/application.scss",
+		"/Users/JRodd32/Ruby/projects/tax/config/environments/development.rb",
+		"/Users/JRodd32/Ruby/projects/tax/app/assets/stylesheets/application.css",
+		"/Users/JRodd32/Ruby/projects/tax/config/environments/production.rb",
+		"/Users/JRodd32/Ruby/projects/tax/README.rdoc",
+		"/Users/JRodd32/Ruby/projects/tax/config/initializers/secret_token.rb",
+		"/Users/JRodd32/Ruby/projects/JerrodLong/spec/spec_helper.rb",
+		"/Users/JRodd32/Ruby/projects/JerrodLong/.gitignore",
+		"/Users/JRodd32/Ruby/projects/JerrodLong/README.md",
+		"/Users/JRodd32/Ruby/projects/JL.com/Gemfile",
+		"/Users/JRodd32/Ruby/projects/JL.com/config/routes.rb",
+		"/Users/JRodd32/Ruby/projects/JerrodLong/Gemfile",
+		"/Users/JRodd32/Ruby/projects/JerrodLong/config/initializers/secret_token.rb",
+		"/Users/JRodd32/Ruby/projects/JL.com/.gitignore",
+		"/Users/JRodd32/Ruby/projects/JL.com/config/database.yml",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/views/index.html.erb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/views/application.html.erb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/controllers/application_controller.rb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/views/users/index.html.erb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/assets/stylesheets/framework_and_overrides.css.scss",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/views/layouts/application.html.erb",
+		"/Users/JRodd32/Ruby/projects/ramblr/db/migrate/20140109045325_create_users.rb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/controllers/static_pages_controller.rb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/assets/stylesheets/application.scss",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/views/layouts/_navigation.html.erb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/views/layouts/_navigation_links.html.erb",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/assets/stylesheets/application.css.scss",
+		"/Users/JRodd32/Ruby/projects/ramblr/Gemfile",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/assets/javascripts/application.js",
+		"/Users/JRodd32/Ruby/projects/ramblr/app/models/user.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_path",
+			"include",
+			"header",
+			"img",
+			".html",
+			"robo",
+			":after",
+			"spro"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/blogs_controller.rb",
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/static_pages/_home_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/application.rb",
+					"settings":
+					{
+						"buffer_size": 1031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1018,
+								1018
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true
+}

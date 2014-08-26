@@ -2,7 +2,9 @@ class UsersController < ApplicationController
   before_filter :authenticate_user!
 
   def index
+    @user = User.new
     @users = User.all
+    @application = TaxForm.new(@user)
   end
 
   def show

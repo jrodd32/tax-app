@@ -1,0 +1,15 @@
+<main class="home">
+	<% if notice %>
+	  <p class="alert alert-success"><%= notice %></p>
+	<% end %>
+	<% if alert %>
+	  <p class="alert alert-danger"><%= alert %></p>
+	<% end %>
+
+	<article>
+		<%= render 'static_pages/home_content' %>
+	</article>
+	<aside>
+		<%= render 'static_pages/home_form' %>
+	</aside>
+</main>

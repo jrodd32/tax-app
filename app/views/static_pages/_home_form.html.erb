@@ -1,0 +1,15 @@
+<% if user_signed_in? %>
+		<%= button_to 'Get Started', new_tax_form_path %>
+	<% else %>
+		<h2>Sign Up Now</h2>
+		<%= simple_form_for :user, url: {controller: "users", action: "create"} do |user| %>
+			<%= user.error_notification %>
+			<%= user.label :email %>
+			<%= user.email_field :email, required: true, autofocus: true %>
+			<%= user.label :password %>
+			<%= user.password_field :password, required: true %>
+			<%= user.label :password_confirmation %>
+			<%= user.password_field :password_confirmation, required: true %>
+			<%= user.button :submit, "Get Started" %>
+	<% end %>
+<% end %>
